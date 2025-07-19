@@ -6,6 +6,8 @@ workflows:
       vars:
         JAVA_VERSION: 17
     scripts:
+      - name: Make gradlew executable
+        script: chmod +x ./gradlew
       - name: Build Debug APK
         script: ./gradlew assembleDebug
     artifacts:
