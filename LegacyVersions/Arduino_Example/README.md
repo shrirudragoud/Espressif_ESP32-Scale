@@ -1,1 +1,0 @@
-# Espressif_ESP32-Scale
